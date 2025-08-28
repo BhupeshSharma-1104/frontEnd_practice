@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h3 align="center">Registration Form</h3>
+    <form>
+        <table border="0" cellpadding="10" cellspacing="0" align="center">
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" name="fname" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" name="lname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" name="email" placeholder="Enter Email Address"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Age :</td>
+                <td><input type="number" name="age" min="1" max="100"></td>
+            </tr>
+            <tr>
+                <td>Preferences :</td>
+                <td>
+                    <input type="checkbox" name="preference1" value="acrylic"> Acrylic Painting
+                    <input type="checkbox" name="preference2" value="oil"> Oil Painting
+                    <input type="checkbox" name="preference3" value="watercolor"> Water Color Painting
+                </td>
+            </tr>
+            <tr>
+                <td>Occupation :</td>
+                <td>
+                    <select name="occupation">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="artist">Artist</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Bio :</td>
+                <td>
+                    <textarea rows="5" cols="40" placeholder="Share few lines about yourself..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
